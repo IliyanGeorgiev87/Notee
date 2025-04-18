@@ -1,13 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-</head>
-<body>
-    
-    <h1>Hello, world!</h1>
-    <p>You are viewing this from Class based views</p>
-</body>
-</html>
+{% extends 'base.html' %}
+{% load static %}
+
+    {% block content %}
+        <div class="row">
+            <div class="col">
+                <div class="home-holde text-center">
+                    <h1 class="fs-3">Hello, world!</h1>
+                    <p>Welcome to the app</p>
+                    <a href="{% url 'notes.list' %}" class="btn btn-success btn-sm"> Go to the notes</a>
+                </div>
+            </div>
+        </div>
+
+    {% endblock %}
