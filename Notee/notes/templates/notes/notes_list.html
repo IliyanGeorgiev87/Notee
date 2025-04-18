@@ -24,6 +24,10 @@
                     <div class="card-body">
                         <p>{{note.text|truncatechars:15}}</p>
                     </div>
+
+                    <div class="card-footer">
+                        <a href="{% url 'notes.detail' pk=note.id %}" class="btn btn-info btn-sm">View Note</a>
+                    </div>
                 
                 </div>
             
