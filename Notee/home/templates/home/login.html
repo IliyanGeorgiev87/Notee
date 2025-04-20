@@ -6,12 +6,12 @@
 <div class="row justify-content-center">
     <div class="col-md-4">
         <div class="card">
-            <div class="card-header">Login</div>
+            <div class="card-header fw-semibold">Login</div>
             <div class="card-body">
                 <form action="" method="post">
                     {% csrf_token %}
                     {{form.as_p}}
-                    <input type="submit" class="btn btn-sm btn-success">
+                    <button type="submit" class="btn btn-sm btn-success">Login <i class="bi bi-box-arrow-in-right"></i> </button>
                 </form>
             </div>
         </div>

@@ -11,7 +11,7 @@
                 <form action="" method="post">
                     {% csrf_token %}
                     {{form.as_p}}
-                    <input type="submit" class="btn btn-sm btn-success" value="Sign up" name="Submit">
+                    <button type="submit" name="Submit" class="btn btn-sm btn-success">Sign up <i class="bi bi-person-fill-add"></i></button>
                 </form>
             </div>
         </div>
