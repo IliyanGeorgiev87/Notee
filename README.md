@@ -39,8 +39,8 @@ pip install django
 1. **Clone the project reposiotry** to your local machine  
   
     ```bash
-    git clone https://github.com/yourusername/projectname.git
-    cd projectname
+    git clone https://github.com/IliyanGeorgiev87/Notee
+    cd Notee
     ```
 2. **Create a virtual environment**: It’s good practice to use a virtual environment to manage your project’s dependencies. Run the following commands:
   
